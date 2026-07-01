@@ -1,0 +1,161 @@
+.llm-analysis-tab {
+  padding: 20px;
+}
+
+.llm-header {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+.llm-header h2 {
+  margin: 0 0 6px 0;
+}
+
+.llm-header p {
+  margin: 0;
+  color: #555;
+}
+
+.llm-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  align-items: end;
+  margin: 16px 0;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+.llm-filters label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  font-size: 14px;
+}
+
+.llm-filters select,
+.llm-filters input {
+  min-width: 180px;
+  padding: 7px 9px;
+  border: 1px solid #bbb;
+  border-radius: 8px;
+}
+
+.llm-button {
+  padding: 8px 14px;
+  border: 1px solid #aaa;
+  border-radius: 8px;
+  cursor: pointer;
+  background: white;
+}
+
+.llm-button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+.llm-summary-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 16px 0 20px;
+}
+
+.llm-summary-card {
+  min-width: 110px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 12px;
+  background: #fafafa;
+}
+
+.llm-summary-label {
+  font-size: 13px;
+  color: #666;
+}
+
+.llm-summary-value {
+  font-size: 26px;
+  font-weight: 700;
+  margin-top: 4px;
+}
+
+.llm-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0 24px;
+  font-size: 14px;
+}
+
+.llm-table th,
+.llm-table td {
+  border-bottom: 1px solid #e2e2e2;
+  text-align: left;
+  padding: 8px 10px;
+  vertical-align: top;
+}
+
+.llm-table th {
+  background: #f5f5f5;
+  font-weight: 700;
+}
+
+.llm-muted {
+  color: #777;
+}
+
+.llm-error {
+  margin: 12px 0;
+  padding: 10px 12px;
+  border: 1px solid #d99;
+  border-radius: 8px;
+  background: #fff5f5;
+  color: #900;
+}
+
+.decision-pill {
+  display: inline-block;
+  min-width: 56px;
+  padding: 3px 8px;
+  border-radius: 999px;
+  text-align: center;
+  font-weight: 700;
+  border: 1px solid #ccc;
+}
+
+.decision-A {
+  background: #eef8ee;
+}
+
+.decision-S {
+  background: #f8eeee;
+}
+
+.decision-V {
+  background: #fff8e6;
+}
+
+.decision-k_revizi {
+  background: #eef1ff;
+}
+.llm-run-summary {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px 18px;
+  margin: 14px 0 16px;
+  padding: 12px;
+  border: 1px solid #d7dbe7;
+  border-radius: 10px;
+  background: #fff;
+}
+.llm-run-summary h3 {
+  flex-basis: 100%;
+  margin: 0 0 4px;
+}
+.llm-run-summary span {
+  display: inline-block;
+}

@@ -1,5 +1,7 @@
 
 # DocVizor v.3.04 – vizualizace obsahu pro výběr
+Tento balík obsahuje funkční prototyp pro výzkumné testování metody výběru A/V/S s využitím LLM a následnou vizualizací pro posouzení archivářem. 
+Pro využití LLM musí mít uživatel vlastní API KEY.
 
 ## 1. Jak aplikace pracuje
 

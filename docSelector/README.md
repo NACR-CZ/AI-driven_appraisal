@@ -1,6 +1,7 @@
 # DocSelector Phase 1 — prototyp nástroje pro archivní appraisal
 
-Tento balík obsahuje první funkční prototyp pro výzkumné testování metody automatizovaného výběru A/V/S.
+Tento balík obsahuje první funkční prototyp pro výzkumné testování metody výběru A/V/S s využitím algoritmického a LLM posouzení.
+Pro využití LLM musí mít uživatel vlastní APi KEY.
 
 ## Co prototyp umí
 
